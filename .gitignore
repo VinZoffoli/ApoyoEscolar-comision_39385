@@ -3,5 +3,5 @@
 node_modules/ 
 
 # Instalación 2
-package.json/
-package-lock.json/
+package.json
+package-lock.json

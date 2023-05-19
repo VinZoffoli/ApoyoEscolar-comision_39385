@@ -23,7 +23,7 @@
     .custom-section .p-container p {
         margin-top: 0px;
         width: fit-content;
-        font-size: 5rem;
+        font-size: 4rem;
         position: relative;
         color: transparent;
         animation: text_reveal 0.5s ease forwards;
@@ -35,6 +35,26 @@
     .contact-container .contact-img {
         max-height: 100px;
         width: 40%;
+    }
+
+    .content {
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+
+            input {
+                width: 100%;
+            }
+
+            button {
+                padding: 5px 10px;
+                font-size: 14px;
+                width: 50%;
+                margin-top: 20px;
+            }
+        }
     }
 
 }
