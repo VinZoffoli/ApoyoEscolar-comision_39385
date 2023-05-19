@@ -1,0 +1,77 @@
+/* MATERIAS */
+
+#materias {
+    background-image: url(../assets/img/meetings-bg.jpg);
+    position: relative;
+
+    .materias {
+        flex-direction: column;
+        text-align: center;
+        max-width: 1500px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    .section-subtitle {
+        font-size: 25px;
+        line-height: 1.2;
+        text-shadow: 1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black;
+    }
+}
+
+#historia {
+    background-image: url(../assets/img/back-historia.jpg);
+}
+
+#geografia {
+    background-image: url(../assets/img/back-geografia.jpg);
+}
+
+#antropologia {
+    background-image: url(../assets/img/back-antropologia.jpg);
+}
+
+#ciudadania {
+    background-image: url(../assets/img/back-ciudadania.jpg);
+}
+
+#economia {
+    background-image: url(../assets/img/back-economia.jpg);
+}
+
+#sociologia {
+    background-image: url(../assets/img/back-sociologia.jpg);
+}
+
+#fvt {
+    background-image: url(../assets/img/back-fvt.jpg);
+}
+
+#italiano {
+    background-image: url(../assets/img/back-italiano.jpg);
+}
+
+#historia,
+#geografia,
+#antropologia,
+#ciudadania,
+#economia,
+#sociologia,
+#fvt,
+#italiano {
+    background-position: center;
+    box-shadow: 0px 0px 10px 0 #c1040485;
+    text-shadow: 1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black;
+    border: 4px solid black;
+    position: relative;
+
+}
+
+.testimonial p {
+    font-size: 20px;
+    text-shadow: 1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 black, 1px 1px 0 white;
+    text-decoration: solid white;
+    text-align: center;
+}
+
+/* END MATERIAS */

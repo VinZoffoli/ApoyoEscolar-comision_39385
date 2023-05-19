@@ -1,0 +1,77 @@
+/* CONTACTO */
+
+#contact {
+    background-image: url(../assets/img/meetings-bg.jpg);
+
+    .contact-container h1 {
+        margin-bottom: 50px;
+    }
+}
+
+.contact-container {
+    padding: 15px 9%;
+    padding-bottom: 100px;
+
+    .contact-box-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 40px;
+
+        .contactbox {
+            box-shadow: 0px 0px 6px 0 #c1040485;
+            border-radius: 25px;
+            background: #fff;
+            text-align: center;
+            padding: 30px 20px;
+            background-image: linear-gradient(60deg, #1b1010 0%, #0a0202 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .contact-img {
+                max-height: 100px;
+                width: 20%;
+                overflow: hidden;
+                border-radius: 25px;
+                opacity: 0.6;
+            }
+
+            h3 {
+                color: rgb(214, 214, 214);
+                font-size: 3rem;
+                font-weight: 500;
+                padding: 10px 0;
+            }
+
+            p {
+                color: white;
+                font-size: 16px;
+                line-height: 1.8;
+            }
+
+            .btn:hover {
+                letter-spacing: 1px;
+            }
+
+            &:hover {
+                box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+                transform: scale(1.03);
+            }
+        }
+    }
+}
+
+.map iframe {
+    width: 100%;
+}
+
+.info-box {
+    align-items: center;
+    display: flex;
+
+    img {
+        width: 90px;
+    }
+}
+
+/* END CONTACTO */

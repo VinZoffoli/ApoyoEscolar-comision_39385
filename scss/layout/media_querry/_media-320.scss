@@ -1,0 +1,200 @@
+@media (max-width: 320px) {
+
+
+
+    #footer .footer {
+        min-height: auto;
+        padding-top: 30px;
+        padding-bottom: 5px;
+    }
+
+    #footer h2 {
+        font-size: 1.4rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #footer .social-icons {
+        margin-bottom: 20px;
+        height: 40px;
+        width: 250px;
+    }
+
+    #footer .social-icons img {
+        margin-right: 30px;
+    }
+
+    .brand h1 {
+        font-size: 26px;
+    }
+
+    .navbar-collapse {
+        background-color: rgb(22, 1, 5);
+        border-radius: 10px;
+        transform: translateY(26px);
+    }
+
+    .navbar-collapse .navbar-nav {
+        margin-left: -45px;
+    }
+
+    /*Main Index*/
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 10px;
+
+            input {
+                width: 100%;
+            }
+
+            button {
+                padding: 5px 10px;
+                font-size: 14px;
+                width: 50%;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .custom-section .p-container p {
+        margin-top: 0px;
+        width: fit-content;
+        font-size: 3.2rem;
+        position: relative;
+        color: transparent;
+        animation: text_reveal 0.5s ease forwards;
+        animation-delay: 2s;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .p-container {
+        margin-bottom: 60px;
+    }
+
+    .p1-subtitulo,
+    .p2-subtitulo,
+    .p3-subtitulo {
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+
+    #home {
+
+        p span {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            height: 80%;
+            background-color: crimson;
+            animation: text_reveal_box 1s ease;
+            animation-delay: 0.5s;
+            text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+            font-weight: bold;
+        }
+    }
+
+    .contenedor {
+        font-size: 20px;
+    }
+
+    .btn_amt {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .category {
+        width: 80px;
+        height: 70px;
+    }
+
+    /*Contacto*/
+
+    .contact-container {
+        padding: 15px 5%;
+
+        .contact-box-container {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+
+            .contactbox {
+                padding: 20px;
+
+                .contact-img {
+                    max-height: 80px;
+                    width: 30%;
+                }
+
+                h3 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+
+    .info-box img {
+        width: 60px;
+    }
+
+    /*Formulario*/
+
+    .formulario-section {
+        padding: 100px 0;
+        font-size: 12px;
+
+        h1 {
+            padding-top: 30px;
+            font-size: 24px;
+        }
+    }
+
+    .border {
+        width: 60px;
+        height: 6px;
+        margin: 10px auto;
+    }
+
+    .formulario-form {
+        max-width: 280px;
+    }
+
+    .formulario-form-text {
+        margin: 20px 0;
+        padding: 16px 32px;
+        font-size: 16px;
+        border-radius: 10px;
+
+        &:focus {
+            box-shadow: 0 0 8px 4px rgba(171, 0, 0, 0.631372549);
+        }
+    }
+
+    textarea.formulario-form-text {
+        height: 100px;
+    }
+
+    .formulario-form-btn {
+        float: none;
+        display: block;
+        margin: 20px auto;
+        padding: 10px 40px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+
+
+}

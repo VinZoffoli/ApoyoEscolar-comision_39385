@@ -1,0 +1,165 @@
+/* DESKTOP */
+@media only screen and (min-width: 1024px) {
+
+    /*Materias*/
+    #materias .materias-bottom .materias-item {
+        flex-basis: 22%;
+        margin: 1.5%;
+    }
+
+    /*Informacion*/
+    .skills-title {
+        font-size: 50px;
+    }
+
+    .skills-skill {
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .profile-info {
+        margin-bottom: 0px;
+    }
+
+    .profile-img {
+        width: 100%;
+        max-width: 350px;
+        transform: scaleX(-1);
+    }
+
+    .profile {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .profile-title {
+        font-size: 60px;
+    }
+
+    .profile-details {
+        font-size: 25px;
+        margin: 30px 0;
+    }
+
+    .profile-btn {
+        font-size: 28px;
+    }
+
+    .experiences-title {
+        font-size: 50px;
+        margin: 35px 0;
+    }
+
+    .experience-objetivos {
+        font-size: 25px;
+    }
+
+    .experience-position {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .experience-description {
+        font-size: 20px;
+        margin-top: 10px;
+        line-height: 1.3;
+    }
+
+    .experience {
+        padding: 0;
+    }
+
+    .experience_left {
+        text-align: right;
+    }
+
+    .experiences-grid {
+        display: grid;
+        grid-template-columns: auto 2px auto;
+        gap: 20px 70px;
+        padding: 70px;
+        justify-content: center;
+        max-width: 980px;
+        margin: 0 auto;
+    }
+
+    .line {
+        background-color: white;
+        position: relative;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(90, 90, 90, 0.514);
+            border-radius: 50%;
+            position: absolute;
+            top: -20px;
+            left: -9px;
+        }
+
+        &::after {
+            content: "";
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(90, 90, 90, 0.514);
+            border-radius: 50%;
+            position: absolute;
+            top: -20px;
+            left: -9px;
+            top: 100%;
+            z-index: 1;
+        }
+    }
+
+    .horizontal-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .vertical-padding {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-container {
+        padding: 15px 5%;
+
+        .contact-box-container {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+
+            .contactbox {
+                padding: 20px;
+
+                .contact-img {
+                    max-height: 100%;
+                    width: 30%;
+                }
+
+                h3 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 14px;
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+}
+
+
+/* END DESKTOP */

@@ -1,0 +1,235 @@
+/* TABLET*/
+
+@media only screen and (max-width: 768px) {
+    .cta {
+        font-size: 2.5rem;
+        padding: 20px 60px;
+    }
+
+
+
+    /* SERVICIOS */
+
+    #servicios {
+        .servicios-item {
+            flex-direction: row;
+
+            &:nth-child(even) {
+                flex-direction: row-reverse;
+            }
+
+            height: 400px;
+            margin: 0;
+            width: 100%;
+            border-radius: 0;
+            box-shadow: 0px 0px 23px 0 #9a000085;
+        }
+
+        .all-servicios {
+
+            .servicios-info,
+            .servicios-img {
+                height: 100%;
+            }
+        }
+    }
+
+    /* END SERVICIOS */
+
+    /* INFORMACION */
+
+    #informacion {
+        .informacion {
+            flex-direction: row;
+        }
+
+        .col-left {
+            width: 600px;
+            height: 400px;
+            padding-left: 60px;
+        }
+
+        .informacion .col-left .informacion-img::after {
+            left: -45px;
+            top: 34px;
+            height: 98%;
+            width: 98%;
+            border: 10px solid crimson;
+        }
+
+        .col-right {
+            text-align: left;
+            padding: 30px;
+
+            h1 {
+                text-align: left;
+            }
+        }
+    }
+
+    /* END INFORMACION */
+
+    /* CONTACT  */
+
+
+    .contact {
+        flex-direction: column;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: center;
+        min-width: 20vh;
+    }
+
+    .contact-items {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .contact-item {
+        width: 30%;
+        margin: 0;
+        flex-direction: row;
+
+        .icon {
+            height: 100px;
+            width: 100px;
+
+            img {
+                object-fit: contain;
+            }
+        }
+
+        .contact-info {
+            width: 100%;
+            text-align: left;
+            padding-left: 20px;
+            color: white;
+        }
+    }
+
+
+    /* END CONTACT  */
+
+    .contact-container {
+        padding: 20px;
+    }
+
+    .serv-container {
+        padding: 20px;
+    }
+
+    .navbar-collapse {
+        background-color: rgb(22, 1, 5);
+        border-radius: 10px;
+        transform: translateY(20px);
+    }
+
+    .navbar-collapse .navbar-nav {
+        margin-left: -45px;
+    }
+
+
+    .test-col {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .custom-section .p-container p {
+        margin-top: 0px;
+        width: fit-content;
+        font-size: 7rem;
+        position: relative;
+        color: transparent;
+        animation: text_reveal 0.5s ease forwards;
+        animation-delay: 2s;
+        text-align: center;
+        display: inline-block;
+    }
+    
+
+    .p-container {
+        margin-bottom: 60px;
+    }
+
+
+
+    #home {
+
+        p span {
+            position: absolute;
+            top: -10px;
+            left: 0;
+            height: 230%;
+            animation: text_reveal_box 1s ease;
+            animation-delay: 0.5s;
+            text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+            font-weight: bold;
+        }
+    }
+
+    .btn_amt {
+        margin-top: 20px;
+    }
+
+    /*CONTACTO*/
+
+    .contact-container {
+        padding: 15px 5%;
+        padding-bottom: 100px;
+    }
+
+    .contact-container .contact-box-container .contactbox .contact-img {
+        max-height: 100%;
+    }
+
+    /*SERVICIOS*/
+
+    .serv-container .serv-box-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /*FORMULARIO*/
+
+
+    .formulario-section {
+        padding: 80px 0;
+        font-size: 12px;
+    }
+
+    .formulario-form {
+        max-width: 600px;
+    }
+
+    .formulario-form-text {
+        margin: 20px 0;
+        padding: 14px 28px;
+        font-size: 16px;
+        border-radius: 12px;
+    }
+
+    .formulario-form-text:focus {
+        box-shadow: 0 0 8px 4px rgba(171, 0, 0, 0.631372549);
+    }
+
+    textarea.formulario-form-text {
+        height: 100px;
+    }
+
+    .formulario-form-btn {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 40px;
+        border-radius: 16px;
+        transition: 0.5s;
+        font-size: 16px;
+        text-align: center;
+    }
+
+
+}

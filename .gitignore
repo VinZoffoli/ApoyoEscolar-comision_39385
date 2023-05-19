@@ -1,0 +1,8 @@
+# Sirve para ignorar archivos que no queremos en GitHub
+
+# Insalacion 1
+node_modules/ 
+
+# Instalación 2
+package.json/
+package-lock.json/
