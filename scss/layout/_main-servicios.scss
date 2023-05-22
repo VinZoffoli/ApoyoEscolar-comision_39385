@@ -52,16 +52,20 @@
             .btn {
                 margin-top: 10px;
                 display: inline-block;
-                background-image: linear-gradient(60deg, #666666 0%, #c1c1c1 100%);
-                color: rgb(0, 0, 0);
+                background-image: linear-gradient(40deg, #666666 50%, #3c3c3c 100%);
+                border-color: black;
+                color: rgba(255, 255, 255, 0.819);
                 font-size: 17px;
-                border-radius: 10px;
+                border-radius: 15px;
                 padding: 8px 25px;
                 height: 40px;
                 display: inline-block;
+                align-items: center;
+                text-align: center;
 
                 &:hover {
-                    letter-spacing: 1px;
+                    box-shadow: 0 0 20px black;
+                    border-color: black;
                 }
             }
 
