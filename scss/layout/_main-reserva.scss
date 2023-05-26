@@ -11,7 +11,7 @@
 
     h1 {
         text-align: center;
-        color: #ddd;
+        color: $background-secundario;
         padding-top: 50px;
         font-size: 30px;
     }
@@ -40,7 +40,7 @@
     background: #111;
     padding: 20px 40px;
     outline: none;
-    color: #ddd;
+    color: $background-secundario;
     transition: 0.5s;
     font-size: 20px;
     border-radius: 15px;
@@ -59,7 +59,7 @@ textarea.formulario-form-text {
     float: right;
     border: 0;
     background: #4a00005a;
-    color: #fff;
+    color: $background-secundario;
     padding: 12px 50px;
     border-radius: 20px;
     cursor: pointer;
@@ -78,7 +78,7 @@ textarea.formulario-form-text {
 .testimonials {
     padding: 40px 0;
     background: #f1f1f1;
-    color: white;
+    color: $background-secundario;
     text-align: center;
     font-size: 15px;
 }
@@ -130,7 +130,7 @@ textarea.formulario-form-text {
 }
 
 .stars {
-    color: crimson;
+    color: $background-principal;
     margin-bottom: 20px;
 }
 

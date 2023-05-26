@@ -6,8 +6,6 @@
         padding: 20px 60px;
     }
 
-
-
     /* SERVICIOS */
 
     #servicios {
@@ -54,7 +52,7 @@
             top: 34px;
             height: 98%;
             width: 98%;
-            border: 10px solid crimson;
+            border: 10px solid $background-principal;
         }
 
         .col-right {
@@ -106,7 +104,7 @@
             width: 100%;
             text-align: left;
             padding-left: 20px;
-            color: white;
+            color: $background-secundario;
         }
     }
 
@@ -230,6 +228,4 @@
         font-size: 16px;
         text-align: center;
     }
-
-
 }

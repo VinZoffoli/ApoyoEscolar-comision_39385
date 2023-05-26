@@ -11,7 +11,7 @@
     }
 
     h2 {
-        color: white;
+        color: $background-secundario;
         font-weight: 500;
         font-size: 1.8rem;
         letter-spacing: 0.1rem;
@@ -44,7 +44,7 @@
     }
 
     p {
-        color: white;
+        color: $background-secundario;
         font-size: 1.3rem;
     }
 }

@@ -14,13 +14,13 @@
 
 @keyframes text_reveal {
     100% {
-        color: white;
+        color: $background-secundario;
     }
 }
 
 @keyframes text_reveal_name {
     100% {
-        color: crimson;
+        color: $background-principal;
         font-weight: 500;
     }
 }

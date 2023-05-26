@@ -43,7 +43,7 @@ img {
 }
 
 p {
-    color: white;
+    color: $background-secundario;
     font-size: 1.4rem;
     margin-top: 5px;
     line-height: 2.5rem;
@@ -54,7 +54,7 @@ p {
 .section-title {
     font-size: 6rem;
     font-weight: 300;
-    color: white;
+    color: $background-secundario;
     margin-bottom: 10px;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
@@ -62,7 +62,7 @@ p {
     margin-top: 70px;
 
     span {
-        color: crimson;
+        color: $background-principal;
         text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     }
 }
@@ -72,7 +72,7 @@ p {
 .cta {
     display: inline-block;
     padding: 10px 30px;
-    color: white;
+    color: $background-secundario;
     background-color: transparent;
     border: 2px solid crimson;
     font-size: 2rem;
@@ -88,7 +88,7 @@ p {
     transform: translateX(-50%);
 
     &:hover {
-        color: white;
+        color: $background-secundario;
         background-color: #770018;
         text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     }
@@ -97,9 +97,9 @@ p {
 .cta-cv {
     display: inline-block;
     padding: 10px 30px;
-    color: white;
+    color: $background-secundario;
     background-color: transparent;
-    border: 2px solid crimson;
+    border: 2px solid $background-principal;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -113,7 +113,7 @@ p {
     transform: translateX(-50%);
 
     &:hover {
-        color: white;
+        color: $background-secundario;
         background-color: #770018;
         text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     }
@@ -122,10 +122,10 @@ p {
 .brand h1 {
     font-size: 3rem;
     text-transform: uppercase;
-    color: white;
+    color: $background-secundario;
 
     span {
-        color: crimson;
+        color: $background-principal;
         text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     }
 }

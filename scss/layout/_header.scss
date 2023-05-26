@@ -14,7 +14,7 @@
     border-bottom: 2px solid rgb(119, 9, 31);
 
     .nav-link {
-        color: #fff;
+        color: $background-secundario;
     }
 }
 
@@ -36,8 +36,8 @@
 }
 
 .btn-custom {
-    border-color: crimson;
-    color: #fff;
+    border-color: $background-principal;
+    color: $background-secundario;
 
     &:hover,
     &:focus {
@@ -49,7 +49,7 @@
 
 .navbar-toggler-icon,
 .navbar-custom .navbar-toggler {
-    background-color: #fff;
+    background-color: $background-secundario;
 }
 
 .brand {
@@ -68,7 +68,7 @@
     width: 90%;
     max-width: 900px;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: $background-secundario;
     padding-top: 50px;
     text-align: center;
 
@@ -80,7 +80,7 @@
     }
 
     form {
-        background: #fff;
+        background: $background-secundario;
         padding: 10px;
         border-radius: 8px;
         display: flex;
@@ -96,7 +96,7 @@
 
         button {
             background-color: rgb(117, 0, 23);
-            color: #fff;
+            color: $background-secundario;
             padding: 15px 40px;
             border: none;
             border-radius: 6px;

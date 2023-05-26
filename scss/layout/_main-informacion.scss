@@ -34,7 +34,7 @@
 .profile-title {
     font-size: 35px;
     font-weight: bold;
-    color: white;
+    color: $background-secundario;
     font-family: "Noto Sans", sans-serif;
 }
 
@@ -48,8 +48,8 @@
 
 .profile-btn {
     background-color: transparent;
-    color: white;
-    border: 2px solid crimson;
+    color: $background-secundario;
+    border: 2px solid $background-principal;
     font-size: 20px;
     padding: 0.5em 1em;
     border-radius: 25px;
@@ -119,8 +119,8 @@
 }
 
 :root {
-    --theme-color: white;
-    --text-color-inverse: white;
+    --theme-color: $background-secundario;
+    --text-color-inverse: $background-secundario;
     --text-color: black;
     --navbar-shallow-color: #e5e5e5;
 }

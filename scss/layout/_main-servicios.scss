@@ -20,7 +20,7 @@
         .servbox {
             box-shadow: 0px 0px 6px 0 #c1040485;
             border-radius: 25px;
-            background: #fff;
+            background: $background-secundario;
             text-align: center;
             padding: 30px 20px;
             background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
@@ -44,7 +44,7 @@
             }
 
             p {
-                color: white;
+                color: $background-secundario;
                 font-size: 16px;
                 line-height: 1.8;
             }
